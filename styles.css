@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;}
+
+/* HEADER */
+.main-header {
+    background: #1A0136;
+    color: white;
+    padding: 60px 40px;}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;}
+
+/* TEXT INFO */
+.header-info h1 {
+    margin: 10px;
+    font-size: 32px;}
+
+.header-info p {
+    margin: 5px 0 10px;}
+
+
+/*OPEN COLUMN LAYOUT */
+.content-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    padding: 40px;}
+
+
+/* HEADINGS */
+h2 {
+    color: #1A0136;
+    margin-bottom: 10px;}
+
+/* LINE */
+.line {
+    width: 50px;
+    height: 3px;
+    background: #1A0136;
+    margin: 10px 0 20px;}
+
+/* TO MAKE SPACE BETWEEN CONTENT */
+.content-spacer {
+    margin-bottom: 15px;}
+
+.date {
+    font-size: 13px;
+    color: gray;}
+
+/*SHAQRA UNI STYLE LINK*/
+.su-link {
+    color: inherit;
+    text-decoration: none;}
+
+.su-link:hover {
+    text-decoration: underline;
+    color: #4a90e2;}
+
+
+/* CONTACT INFO, SKILLS, GITHUB CONTAINERE */
+.info-container span {
+    display: inline-block;
+    background: #f0f0f0;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 5px;
+    color: black;}
+
+.info-container span:hover {
+    background: #1A0136;
+    color: white;}
+
+/* BUTTON */
+button {
+    margin-top: 15px;
+    padding: 10px 18px;
+    border: none;
+    background: #1A0136;
+    color: white;
+    border-radius: 5px;}
+
+button:hover {
+    background: #2c015c;}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1A0136;
+    color: white;
+    margin-top: 30px;}
+
+/* RESPONSIVE */
+ @media (max-width: 768px) {
+ .content-grid { grid-template-columns: 1fr; } 
+ .profile-container { flex-direction: column; text-align: center;}}
